@@ -1,0 +1,10 @@
+10:#AND(#OR(cheap.title cheap.body inexpensive low-cost) #NEAR/1(internet #SYN(service,providers)))
+12:djs.inlink
+26:lower.title #NEAR/1(heart.title rate.title
+29:#AND(playstation #NEAR/1(2 games))
+33:#NEAR/1(elliptical trainer)
+52:avp.inlink
+71:#NEAR/2(living india)
+102:#NEAR/1(fickle creek farm)
+149:#AND(uplift #OR(#NEAR/1(yellowstone national park) #OR(yellowstone.body yellowstone.inlink)))
+190:#NEAR/1(brooks brothers)

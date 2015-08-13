@@ -1,0 +1,23 @@
+#/bin/python
+import sys
+
+#fr = open('set.txt')
+#fw = open('setm.txt')
+for line in sys.stdin:
+	rstList = ["","","",""]
+	#print len(rstList)
+	items=line.split("\t");
+	#print items
+	if items[0].strip() == "P10":
+		rstList[0] = items[2].strip()
+		print rstList[0]
+	if items[0].strip() == "P20":
+		rstList[1] = items[2].strip()
+	if items[0].strip() == "P30":
+		rstList[2] = items[2].strip()
+	if items[0].strip() == "map":
+		rstList[3] = items[2].strip()
+#print len(rstList)	
+for i in range(len(rstList)):
+	print i
+	print rstList[3]
